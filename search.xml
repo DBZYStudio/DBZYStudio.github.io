@@ -21,7 +21,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>IDM配合油猴脚本实现百度网盘告诉下载</title>
+    <title>IDM配合油猴脚本实现百度网盘高速下载</title>
     <url>/2021/08/19/baidu/</url>
     <content><![CDATA[<p><strong>百度网盘下载速度慢是很多人都为之苦恼的事情，充会员吧，一年200多，也可能下载速度没有显著的提高；不充吧，2KB/s的速度属实离谱；用第三方下载软件又有被盗号的风险。那么今天，我教大家使用IDM搭配油猴脚本来进行百度网盘的高速下载</strong></p>
 <span id="more"></span>
