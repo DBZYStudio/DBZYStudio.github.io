@@ -21,4 +21,91 @@
         <tag>百度网盘</tag>
       </tags>
   </entry>
+  <entry>
+    <title>那些看上去就很复杂的博客，到底是怎么写的</title>
+    <url>/2021/08/20/markdown/</url>
+    <content><![CDATA[<p>说到博客，大家肯定都知道，就是写文章而已。但是博客又可以将所写的文章进行排版，使其看起来更加美观和有逻辑性</p>
+<p>像什么<strong>字体变粗</strong></p>
+<p><del>加删除线</del></p>
+<p><em>变成斜体字</em></p>
+<blockquote>
+<p>引用内容</p>
+</blockquote>
+<p>或者</p>
+<blockquote>
+<p><strong><del><em>全都用上</em></del></strong></p>
+</blockquote>
+<p>如果使用得当，可以使自己的文章加分</p>
+<p><del>同样的，如果使用不得当，就会减分</del><br>那么这些看起来花里胡哨的字体都是怎么做到的呢？</p>
+<p>其实目前的博客，其内容大多是使用<strong>Markdown</strong>语言来编写的</p>
+<blockquote>
+<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯。 它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。<br>由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。 如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、简书等，甚至还能被使用来撰写电子书。</p>
+</blockquote>
+<p>那么Markdown还能做到哪些效果呢？让我们接着往下看</p>
+<h1 id="1-比较常用"><a href="#1-比较常用" class="headerlink" title="1. 比较常用"></a>1. 比较常用</h1><p>首先就是开头所讲的内容<br>在Markdown编辑器中输入以下内容</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">**加上我可以使字体变粗哦**</span><br></pre></td></tr></table></figure>
+<p>那么就可以将其渲染成<br><strong>加上我可以使字体变粗哦</strong><br>这个样子</p>
+<hr>
+<p>输入</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">~~加上我可以使字体有删除线哦~~</span><br></pre></td></tr></table></figure>
+<p>渲染效果：<br><del>加上我可以使字体有删除线哦</del></p>
+<hr>
+<p>输入</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">*加上我会变成斜体字哦*</span><br></pre></td></tr></table></figure>
+<p>渲染效果：<br><em>加上我会变成斜体字哦</em></p>
+<hr>
+<p>输入</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&gt; 这是我引用的内容哦</span><br></pre></td></tr></table></figure>
+<p>渲染效果：</p>
+<blockquote>
+<p>这是我引用的内容哦</p>
+</blockquote>
+<hr>
+<h1 id="2-不是那么常用的"><a href="#2-不是那么常用的" class="headerlink" title="2. 不是那么常用的"></a>2. 不是那么常用的</h1><ul>
+<li>标题<br>输入<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
+渲染效果：<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6></li>
+</ul>
+<p>总共就六级标题  <del>就算你打七个#也不会有更小的字了</del></p>
+<hr>
+<ul>
+<li>列表<br>输入<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">- 我是无序列表</span><br><span class="line">- 我是无序列表</span><br><span class="line">- 我是无序列表</span><br><span class="line">1. 我是有序列表</span><br><span class="line">2. 我是有序列表</span><br><span class="line">3. 我是有序列表</span><br></pre></td></tr></table></figure>
+渲染效果：</li>
+<li>我是无序列表</li>
+<li>我是无序列表</li>
+<li>我是无序列表</li>
+</ul>
+<ol>
+<li>我是有序列表</li>
+<li>我是有序列表</li>
+<li>我是有序列表</li>
+</ol>
+<p>列表是可以一直延展下去的</p>
+<hr>
+<ul>
+<li>使用链接</li>
+</ul>
+<ol>
+<li><p>直接输入链接</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">https://www.bilibili.com</span><br></pre></td></tr></table></figure>
+<p>渲染效果：<br><a href="https://www.bilibili.com/">https://www.bilibili.com</a> （可点击跳转）</p>
+</li>
+<li><p>不显示域名，自定义显示内容<br>输入</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">[点我前往Bilibili](https://www.bilibili.com &quot;点我前往Bilibili&quot;)</span><br></pre></td></tr></table></figure>
+<p>渲染效果：<br><a href="https://www.bilibili.com/" title="点我前往Bilibili">点我前往Bilibili</a></p>
+</li>
+</ol>
+<hr>
+<ul>
+<li>添加图片<br>输入<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">![图片名](https://xxxxxxxxxxx.xxxxxxx.com/xxxxxx.png)</span><br></pre></td></tr></table></figure>
+<del>一时找不到一张合适的图片</del></li>
+</ul>
+<hr>
+<p>好了本期文章到这儿就结束 <del>（水）</del> 完了</p>
+<p>给大家简单的介绍了Markdown的几种简单的使用方法</p>
+]]></content>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
 </search>
