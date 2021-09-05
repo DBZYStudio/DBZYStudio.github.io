@@ -169,8 +169,7 @@
 <p>例如输入cmd即可打开cmd<br><del>我一直都这么叫的:D</del><br>输入mstsc可以打开远程桌面</p>
 <hr>
 <p>虽然原本的运行窗口只能打开一些固定的软件或页面，但是只需要简单的配置一下，就可以用它打开任意的软件或者网站，首先你需要做一些准备工作</p>
-<p>#打开软件</p>
-<ol>
+<h1 id="打开软件"><a href="#打开软件" class="headerlink" title="打开软件"></a>打开软件</h1><ol>
 <li><p>这里以tim为例，首先把tim的快捷方式重命名成自己熟悉的名字(也可以不改名字就叫tim)，这个名字就是一会儿我们要在运行窗口里输入的名字，所以要尽可能的简短又好记。</p>
 </li>
 <li><p>请你在任意地方新建一个用来存放快捷方式的文件夹，文件夹的名字随意，可以有中文。创建完成之后记得把路径复制下来，一会儿要用<br><img src="https://i.loli.net/2021/09/04/XfUJThL9POQr7yB.png" alt="20210904223901.png"></p>
@@ -183,11 +182,11 @@
 <p>(不要以为看起来很door就觉得麻烦，其实完成以上操作不超过半分钟就能完成)</p>
 <p>如果你按照顺序到了这一步，那么恭喜你，你已经完成了，接下来就可以调出运行窗口，输入你在准备工作1中的名字，按下回车，那么这个软件就可以启动了。如果windows提示找不到xxx(你刚刚输的字)，那一定是你有一步做错了，请按照教程重新做一遍</p>
 <blockquote>
-<p>*例如Win+r  录屏   打开Bandicam<br>Win+r   tim   打开Tim<br>Win+r   wx   打开微信<br>…………</p>
+<p><em>例如Win+r  录屏   打开Bandicam<br>Win+r   tim   打开Tim<br>Win+r   wx   打开微信<br>…………</em></p>
 </blockquote>
 <p>最最后一步，把桌面上的快捷方式统统删光，然后你就可以用win+r来启动了，展示给你的朋友看，他一定会对你感到膜拜的</p>
 <hr>
-<p>#打开网站<br><del>想不到吧，运行窗口还可以打开网站</del><br>老样子，你需要先做准备工作才能开始</p>
+<h1 id="打开网站"><a href="#打开网站" class="headerlink" title="打开网站"></a>打开网站</h1><p><del>想不到吧，运行窗口还可以打开网站</del><br>老样子，你需要先做准备工作才能开始</p>
 <ol>
 <li><p>将自己常用的浏览器发送一个快捷方式到桌面上。注意，一个快捷方式只能对应一个网站，根据自己的网站数量来决定快捷方式的多少。</p>
 </li>
@@ -200,29 +199,17 @@
 <p>接下来和刚刚的就一样了<br>右键此电脑→属性→高级系统设置→高级→环境变量→系统变量中选择Path→点击编辑→点击新建→粘贴路径→完成</p>
 <p>那么现在就可以在运行中输入准备工作2的名字，就可以打开该网站了</p>
 <blockquote>
-<p>*例如Win+r  输入bilibili   打开B站<br>Win+r  输入google   打开谷歌搜索<br>Win+r  输入bing   打开Bing搜索<br>…………</p>
+<p><em>例如Win+r  输入bilibili   打开B站<br>Win+r  输入google   打开谷歌搜索<br>Win+r  输入bing   打开Bing搜索<br>…………</em></p>
 </blockquote>
 <hr>
-<p>#尾记<br>其实如果单纯地想要快速启动一个或一些软件，只需下载一个快速启动器就行</p>
+<h1 id="尾记"><a href="#尾记" class="headerlink" title="尾记"></a>尾记</h1><p>其实如果单纯地想要快速启动一个或一些软件，只需下载一个快速启动器就行</p>
 <blockquote>
 <p>Listary（官网：<a href="https://www.listary.com/%EF%BC%89">https://www.listary.com/）</a></p>
-</blockquote>
-<blockquote>
 <p>CLaunch（软件缘介绍：<a href="https://www.appcgn.com/claunch.html%EF%BC%89">https://www.appcgn.com/claunch.html）</a></p>
-</blockquote>
-<blockquote>
 <p>Wox（官网：<a href="http://www.wox.one/%EF%BC%89">http://www.wox.one/）</a></p>
-</blockquote>
-<blockquote>
 <p>音速启动（官网：<a href="http://www.3lsoft.com/%EF%BC%89">http://www.3lsoft.com/）</a></p>
-</blockquote>
-<blockquote>
 <p>Rolan（官网：<a href="https://getrolan.com/%EF%BC%89">https://getrolan.com/）</a></p>
-</blockquote>
-<blockquote>
 <p>Lily（作者首发：<a href="https://www.52pojie.cn/thread-724933-1-1.html%EF%BC%89">https://www.52pojie.cn/thread-724933-1-1.html）</a></p>
-</blockquote>
-<blockquote>
 <p>Find And Run Robot（Donationcoder介绍：<a href="http://www.donationcoder.com/software/mouser/popular-apps/farr%EF%BC%89">http://www.donationcoder.com/software/mouser/popular-apps/farr）</a></p>
 </blockquote>
 <p>那为什么要采用Win+r这种形式呢？<br>原因有以下：</p>
@@ -230,7 +217,8 @@
 <li>运行窗口不属于软件，不需要设置开机自启或手动启动花费时间</li>
 <li>运行作为Windows系统必备的一个功能，有着呼出快、兼容性高(是台windows都能用)、不会闪退、零BUG等优点，这是软件比不了的</li>
 </ol>
-<p>#尾记的尾记<br>本来是包着随便写写的态度来出这篇文章的，没想到却写了1097个字(截止到尾记)，共有3051个字符，花费了接近3小时。随便写的文章，却成了我目前为止字数最多的一个<del>_</del></p>
+<hr>
+<h1 id="尾记的尾记"><a href="#尾记的尾记" class="headerlink" title="尾记的尾记"></a>尾记的尾记</h1><p>本来是包着随便写写的态度来出这篇文章的，没想到却写了1097个字(截止到尾记)，共有3051个字符，花费了接近3小时。随便写的文章，却成了我目前为止字数最多的一个<del>_</del></p>
 ]]></content>
       <tags>
         <tag>装逼必备</tag>
