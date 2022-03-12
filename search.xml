@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>IDM配合油猴脚本实现百度网盘高速下载</title>
+    <url>/2021/08/19/baidu/</url>
+    <content><![CDATA[<p><strong>百度网盘下载速度慢是很多人都为之苦恼的事情，充会员吧，一年200多，也可能下载速度没有显著的提高；不充吧，2KB/s的速度属实离谱；用第三方下载软件又有被盗号的风险。那么今天，我教大家使用IDM搭配油猴脚本来进行百度网盘的高速下载</strong></p>
+<span id="more"></span>
+
+<p>注：我已经使用这个方法一年多了，账号并未任何风险</p>
+<h1 id="1-下载IDM"><a href="#1-下载IDM" class="headerlink" title="1.下载IDM"></a>1.下载IDM</h1><p>首先<a href="http://https//dbzy.coding.net/s/be6cd9e8-fac2-4ae6-a60d-b808f438464a" title="点击这里">点击这里</a>来下载IDM，下载完之后解压，运行<em>Internet Download Manager 6.36.3.exe</em> 这个程序，并根据文件夹内的“安装说明”完成安装</p>
+<h1 id="2-安装tampermonkey（油猴）"><a href="#2-安装tampermonkey（油猴）" class="headerlink" title="2.安装tampermonkey（油猴）"></a>2.安装tampermonkey（油猴）</h1><p>来到<a href="https://www.tampermonkey.net/">https://www.tampermonkey.net/</a> 选择适合自己浏览器的版本进行安装，如果浏览器右上角出现这个标志即代表安装成功<br><img src="https://i.loli.net/2021/08/19/P39QAYjdevuwWio.png" alt="msedge_YoO3qJWRh3.png"></p>
+<h1 id="3-安装所需要的脚本"><a href="#3-安装所需要的脚本" class="headerlink" title="3.安装所需要的脚本"></a>3.安装所需要的脚本</h1><p>打开<a href="https://greasyfork.org/zh-CN/scripts/370634">https://greasyfork.org/zh-CN/scripts/370634</a><br>点击安装<br><img src="https://i.loli.net/2021/08/19/o3cTiVz2Adxh7sM.png" alt="TIM_zCkWYhMeZa.png"><br><img src="https://i.loli.net/2021/08/19/fHJNBXGhntr4MPg.png" alt="TIM_hbem464i4s.png"><br>OK我们重新回到脚本页面，如果原来的“安装脚本”变成了“重新安装3.x.x”就代表安装成功了</p>
+<h1 id="4-正式使用"><a href="#4-正式使用" class="headerlink" title="4.正式使用"></a>4.正式使用</h1><p>我们已经完成了所有的步骤，接下来便可高速下载百度内容了</p>
+<p>随便打开一个链接</p>
+<p>会发现多出了一个“下载助手”按钮，点击后选择API下载<br><img src="https://i.loli.net/2021/08/19/Ud9uH3Cl5tLrPae.png" alt="TIM_ISMrINC6JZ.png"></p>
+<p>那么会弹出一个链接，只需点击，IDM会自动捕获请求并弹出下载页面<br><img src="https://i.loli.net/2021/08/19/8M63tJcruYqm4p1.png" alt="msedge_dUjnayz2RL.png"></p>
+<p>这时你就可以享受高速下载了<br>很简单的教程~</p>
+]]></content>
+      <tags>
+        <tag>油猴脚本</tag>
+        <tag>百度网盘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>网课搞事情</title>
     <url>/2022/03/12/20220312/</url>
     <content><![CDATA[<p>小朋友们，你们有在网课时偷偷关摄像头被发现的情况吗？<del>叔叔没有哦</del><br>今天教大家怎么运用<strong>虚拟摄像头</strong>来规避老师哦</p>
@@ -51,38 +72,10 @@
 <p>拖动OBS中的视频的页面使黑边消失<br><img src="https://s2.loli.net/2022/03/12/lMOg6Wyfqc7SDXk.png" alt="20220312210148.png"></p>
 <p>播放视频、打开虚拟摄像头并按照图片中的设置<br><img src="https://s2.loli.net/2022/03/12/V6UakEhYiubs2CF.png" alt="20220312210851.png"></p>
 <p>大功告成！接下来就可以看成果了</p>
-<iframe height=100 width=100 src="gif http://ys-g.ysepan.com/615937942/217713872/r4638248652OHKT8ftxjbd/%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4.gif">
 ]]></content>
       <tags>
         <tag>摸鱼</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>IDM配合油猴脚本实现百度网盘高速下载</title>
-    <url>/2021/08/19/baidu/</url>
-    <content><![CDATA[<p><strong>百度网盘下载速度慢是很多人都为之苦恼的事情，充会员吧，一年200多，也可能下载速度没有显著的提高；不充吧，2KB/s的速度属实离谱；用第三方下载软件又有被盗号的风险。那么今天，我教大家使用IDM搭配油猴脚本来进行百度网盘的高速下载</strong></p>
-<span id="more"></span>
-
-<p>注：我已经使用这个方法一年多了，账号并未任何风险</p>
-<h1 id="1-下载IDM"><a href="#1-下载IDM" class="headerlink" title="1.下载IDM"></a>1.下载IDM</h1><p>首先<a href="http://https//dbzy.coding.net/s/be6cd9e8-fac2-4ae6-a60d-b808f438464a" title="点击这里">点击这里</a>来下载IDM，下载完之后解压，运行<em>Internet Download Manager 6.36.3.exe</em> 这个程序，并根据文件夹内的“安装说明”完成安装</p>
-<h1 id="2-安装tampermonkey（油猴）"><a href="#2-安装tampermonkey（油猴）" class="headerlink" title="2.安装tampermonkey（油猴）"></a>2.安装tampermonkey（油猴）</h1><p>来到<a href="https://www.tampermonkey.net/">https://www.tampermonkey.net/</a> 选择适合自己浏览器的版本进行安装，如果浏览器右上角出现这个标志即代表安装成功<br><img src="https://i.loli.net/2021/08/19/P39QAYjdevuwWio.png" alt="msedge_YoO3qJWRh3.png"></p>
-<h1 id="3-安装所需要的脚本"><a href="#3-安装所需要的脚本" class="headerlink" title="3.安装所需要的脚本"></a>3.安装所需要的脚本</h1><p>打开<a href="https://greasyfork.org/zh-CN/scripts/370634">https://greasyfork.org/zh-CN/scripts/370634</a><br>点击安装<br><img src="https://i.loli.net/2021/08/19/o3cTiVz2Adxh7sM.png" alt="TIM_zCkWYhMeZa.png"><br><img src="https://i.loli.net/2021/08/19/fHJNBXGhntr4MPg.png" alt="TIM_hbem464i4s.png"><br>OK我们重新回到脚本页面，如果原来的“安装脚本”变成了“重新安装3.x.x”就代表安装成功了</p>
-<h1 id="4-正式使用"><a href="#4-正式使用" class="headerlink" title="4.正式使用"></a>4.正式使用</h1><p>我们已经完成了所有的步骤，接下来便可高速下载百度内容了</p>
-<p>随便打开一个链接</p>
-<p>会发现多出了一个“下载助手”按钮，点击后选择API下载<br><img src="https://i.loli.net/2021/08/19/Ud9uH3Cl5tLrPae.png" alt="TIM_ISMrINC6JZ.png"></p>
-<p>那么会弹出一个链接，只需点击，IDM会自动捕获请求并弹出下载页面<br><img src="https://i.loli.net/2021/08/19/8M63tJcruYqm4p1.png" alt="msedge_dUjnayz2RL.png"></p>
-<p>这时你就可以享受高速下载了<br>很简单的教程~</p>
-]]></content>
-      <tags>
-        <tag>油猴脚本</tag>
-        <tag>百度网盘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>焯</title>
-    <url>/2022/01/12/chao/</url>
-    <content><![CDATA[<p>  左下角出现字幕不要担心，是我们的看板娘隐身了，绝对不是我的问题，绝对不是</p>
-]]></content>
   </entry>
   <entry>
     <title>那些看上去就很复杂的博客，到底是怎么写的</title>
@@ -172,6 +165,12 @@
         <tag>Markdown</tag>
         <tag>博客</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>焯</title>
+    <url>/2022/01/12/chao/</url>
+    <content><![CDATA[<p>  左下角出现字幕不要担心，是我们的看板娘隐身了，绝对不是我的问题，绝对不是</p>
+]]></content>
   </entry>
   <entry>
     <title>【水文章】分享几个超级实用的油猴脚本</title>
