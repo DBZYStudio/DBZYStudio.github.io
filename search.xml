@@ -225,9 +225,66 @@
       </tags>
   </entry>
   <entry>
-    <title>chao</title>
+    <title>焯</title>
     <url>/2022/01/12/chao/</url>
     <content><![CDATA[<p>  左下角出现字幕不要担心，是我们的看板娘隐身了，绝对不是我的问题，绝对不是</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>虚拟摄像头</title>
+    <url>/2022/03/12/%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4/</url>
+    <content><![CDATA[<p>小朋友们，你们有在网课时偷偷关摄像头被发现的情况吗？<del>叔叔没有哦</del><br>今天教大家怎么运用<strong>虚拟摄像头</strong>来规避老师哦</p>
+<span id="more"></span>
+
+<h1 id="虚拟摄像头"><a href="#虚拟摄像头" class="headerlink" title="虚拟摄像头"></a><em>虚拟摄像头</em></h1><blockquote>
+<p>虚拟摄像头(Softcam) 是一个名副其实的软件摄像机，它能模拟成为“真实的”摄像机，成功地骗过大部分的视频聊天软件，比如MicrosoftNetmeeting、CU-Seeme等等。如此一来，就算计算机上没有摄像设置，但照样能使用这些软件来虚拟视频<br>————百度百科</p>
+</blockquote>
+<p>有些看不懂的话，下面是我个人理解</p>
+<blockquote>
+<p>大家电脑或者手机上都会有摄像头，而上网课的时候这个玩意就会启动，把它所看到的给展示出来<del>（生草理解）</del><br>而虚拟摄像头可以将<strong>一张照片、一段循环的录像</strong>来代替原本的摄像头，从而起到迷惑老师的作用</p>
+</blockquote>
+<blockquote>
+<p>打个比方：你可以先录制一小段认真听课的视频，接着把这个视频设置成循环播放，这样老师看到了就会觉得你在听课而不是打电动，因为<strong>“摄像头”</strong>所展示的<strong>“你”</strong>，就是在认真听课</p>
+</blockquote>
+<hr>
+<h1 id="所需软件"><a href="#所需软件" class="headerlink" title="所需软件"></a>所需软件</h1><p>大名鼎鼎的<strong>OBS</strong>！</p>
+<p>OBS官网：<a href="https://obsproject.com/" title="https://obsproject.com/">https://obsproject.com/</a></p>
+<p><img src="https://s2.loli.net/2022/03/12/fb1wq4KGuCArvO9.png" alt="20220312201331.png"></p>
+<p><strong>安装完之后还得先调试一下确保不会产生问题</strong></p>
+<p><img src="https://s2.loli.net/2022/03/12/8m1xMPti5p6foCA.png" alt="20220312201551.png"></p>
+<blockquote>
+<p>软件黑屏是正常情况，不是你电脑坏了</p>
+</blockquote>
+<p>选择左下角的➕，再点击“显示器采集”</p>
+<p><img src="https://s2.loli.net/2022/03/12/BdtbzZrkEvJpIKn.png" alt="20220312201913.png"></p>
+<p>若仍然黑屏可选择切换捕获方式解决<br><img src="https://s2.loli.net/2022/03/12/iyOkHJTxfDKdYtZ.png" alt="20220312202103.png"></p>
+<hr>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><blockquote>
+<p><strong>反复切换捕获方式仍然黑屏</strong></p>
+</blockquote>
+<p><strong>解决方案：打开 Windows设置</strong><br><img src="https://s2.loli.net/2022/03/12/kRs8EuFqTQyNhzg.png" alt="20220312202350.png"></p>
+<p>下方找到<strong>“图形设置”</strong><br><img src="https://s2.loli.net/2022/03/12/ndUuak6NEoFX7ZD.png" alt="20220312202510.png"></p>
+<p><strong>选择OBS</strong><br><img src="https://s2.loli.net/2022/03/12/yYQHAZndmliSTuJ.png" alt="20220312202726.png"></p>
+<p><strong>更改为节能</strong><br><img src="https://s2.loli.net/2022/03/12/fsRb7jhDk19ZWV2.png" alt="20220312202910.png"></p>
+<p>这时再次打开OBS，会发现问题已经解决</p>
+<hr>
+<h1 id="安装虚拟摄像头"><a href="#安装虚拟摄像头" class="headerlink" title="安装虚拟摄像头"></a>安装虚拟摄像头</h1><p>这个属于OBS插件，也就是需要额外下载安装的</p>
+<p>下载链接：<a href="https://objects.githubusercontent.com/github-production-release-asset-2e65be/97811675/84f19c80-e3c5-11e9-84a2-dd8b59de1322?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A/20220312/us-east-1/s3/aws4_request&X-Amz-Date=20220312T123114Z&X-Amz-Expires=300&X-Amz-Signature=f10a3608df0cafc9e5e758e811408f52baf178139231b09b9b79b398afa3fc8a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=97811675&response-content-disposition=attachment;%20filename=OBS-VirtualCam2.0.4-Installer.exe&response-content-type=application/octet-stream" title="戳我下载">戳我下载</a></p>
+<p>下载完成之后安装，到这一步的时候大家可以自行选择：<br><img src="https://s2.loli.net/2022/03/12/keEuiWUIca8f3AM.png" alt="20220312203557.png"><br>（我的英语水平还蛮好的.png）</p>
+<hr>
+<p>然后打开OBS，在工具栏里就可以看到了<br><img src="https://s2.loli.net/2022/03/12/hrXw9BFyjAOqNIm.png" alt="20220312204507.png"></p>
+<hr>
+<h1 id="调试摄像头"><a href="#调试摄像头" class="headerlink" title="调试摄像头"></a>调试摄像头</h1><p>这是最后一步</p>
+<p>虚拟摄像头会把<strong>OBS所显示的内容</strong>上传，所以我们只需要把想要的东西填满屏幕就行了<br>（想不出形容词了，抽象地理解一下就好）</p>
+<h2 id="示范：我没有认真学习的视频就拿我抽卡视频当小白鼠了"><a href="#示范：我没有认真学习的视频就拿我抽卡视频当小白鼠了" class="headerlink" title="示范：我没有认真学习的视频就拿我抽卡视频当小白鼠了"></a>示范：我没有认真学习的视频就拿我抽卡视频当小白鼠了</h2><p><img src="https://s2.loli.net/2022/03/12/WOD17CaqEQZ6uAk.png" alt="20220312205535.png"><br>先打开视频</p>
+<p>用刚刚的方法添加“窗口捕获”(PS：Windows自带的可能无法捕获到，换成PotPlayer就可以了)<br><img src="https://s2.loli.net/2022/03/12/PGtxlMrFTgpqaL3.png" alt="20220312205922.png"></p>
+<p>拖动OBS中的视频的页面使黑边消失<br><img src="https://s2.loli.net/2022/03/12/lMOg6Wyfqc7SDXk.png" alt="20220312210148.png"></p>
+<p>播放视频、打开虚拟摄像头并按照图片中的设置<br><img src="https://s2.loli.net/2022/03/12/V6UakEhYiubs2CF.png" alt="20220312210851.png"></p>
+<p>大功告成！接下来就可以看成果了</p>
+<iframe height=100 width=100 src="http://ys-g.ysepan.com/615937942/217713872/r4638248652OHKT8ftxjbd/%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4.gif">
+]]></content>
+      <tags>
+        <tag>摸鱼</tag>
+      </tags>
   </entry>
 </search>
